@@ -7,6 +7,7 @@ Group:		Text tools
 Url:		http://libcaca.zoy.org/toilet.html
 Source:		http://libcaca.zoy.org/files/%{name}-%{version}.tar.gz
 BuildRequires:	libcaca-devel zlib-devel
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 TOIlet is in its very early development phase. It uses the powerful libcucul
