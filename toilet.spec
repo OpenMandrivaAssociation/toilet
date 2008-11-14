@@ -27,6 +27,7 @@ FIGlet fonts and perform horizontal smushing.
 %patch0 -p2
 
 %build
+./bootstrap
 %configure2_5x
 %make
 
