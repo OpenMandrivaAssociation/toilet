@@ -1,12 +1,11 @@
 Name:		toilet
-Version:	0.1
-Release:	%mkrel 5
+Version:	0.2
+Release:	%mkrel 1
 Summary:	Powerful figlet replacement
 License:	WTFPL
 Group:		Text tools
 Url:		http://libcaca.zoy.org/toilet.html
 Source:		http://libcaca.zoy.org/files/%{name}-%{version}.tar.gz
-Patch0:		toilet-0.1-as-needed.patch
 BuildRequires:	libcaca-devel zlib-devel
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
@@ -24,7 +23,6 @@ FIGlet fonts and perform horizontal smushing.
 
 %prep
 %setup -q
-%patch0 -p2
 
 %build
 ./bootstrap
