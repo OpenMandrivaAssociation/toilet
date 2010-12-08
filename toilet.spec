@@ -1,6 +1,6 @@
 Name:		toilet
 Version:	0.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Powerful figlet replacement
 License:	WTFPL
 Group:		Text tools
