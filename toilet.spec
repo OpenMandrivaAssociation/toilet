@@ -4,7 +4,7 @@ Release:	3
 Summary:	Powerful figlet replacement
 License:	WTFPL
 Group:		Text tools
-Url:		http://libcaca.zoy.org/toilet.html
+Url:		https://libcaca.zoy.org/toilet.html
 Source:		http://libcaca.zoy.org/files/%{name}-%{version}.tar.gz
 BuildRequires:	libcaca-devel zlib-devel
 BuildRoot:	%{_tmppath}/%{name}-buildroot
